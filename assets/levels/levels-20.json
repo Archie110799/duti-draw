@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "svgSymbols": "assets/vectors/animals-20.symbols.svg",
+    "symbolIdFormat": "animal-XX-name"
+  },
+  "defaults": {
+    "paletteMax": 5,
+    "paletteMin": 3,
+    "mode": {
+      "tracing": true,
+      "coloring": true
+    },
+    "regionPolicy": {
+      "type": "placeholder",
+      "note": "Regions will be authored later as SVG paths/groups for bucket-fill masking."
+    }
+  },
+  "levels": [
+    {
+      "levelNumber": 1,
+      "title": "Chick",
+      "animal": "chick",
+      "symbolId": "animal-01-chick",
+      "palette": ["#FFD36B", "#FFF5D6", "#FF8FB1"],
+      "regions": [
+        { "id": "body", "label": "Body", "path": null },
+        { "id": "beak", "label": "Beak", "path": null },
+        { "id": "cheeks", "label": "Cheeks", "path": null }
+      ]
+    },
+    {
+      "levelNumber": 2,
+      "title": "Frog",
+      "animal": "frog",
+      "symbolId": "animal-02-frog",
+      "palette": ["#7BE495", "#3ECF8E", "#E3F4F8", "#FFB6C1"],
+      "regions": [
+        {
+          "id": "body",
+          "label": "Body",
+          "path": "M256 148 a126 150 0 1 0 0 300 a126 150 0 1 0 0 -300 Z"
+        },
+        {
+          "id": "belly",
+          "label": "Belly",
+          "path": "M256 238 a74 86 0 1 0 0 172 a74 86 0 1 0 0 -172 Z"
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "path": "M220 160 a40 40 0 1 0 0 80 a40 40 0 1 0 0 -80 Z M292 160 a40 40 0 1 0 0 80 a40 40 0 1 0 0 -80 Z"
+        },
+        {
+          "id": "cheeks",
+          "label": "Cheeks",
+          "path": "M206 258 a24 24 0 1 0 0 48 a24 24 0 1 0 0 -48 Z M306 258 a24 24 0 1 0 0 48 a24 24 0 1 0 0 -48 Z"
+        }
+      ]
+    },
+    {
+      "levelNumber": 3,
+      "title": "Pig",
+      "animal": "pig",
+      "symbolId": "animal-03-pig",
+      "palette": ["#FFB6C1", "#FFC9E0", "#E3F4F8", "#E84A5F"],
+      "regions": [
+        { "id": "body", "label": "Body", "path": null },
+        { "id": "snout", "label": "Snout", "path": null },
+        { "id": "ears", "label": "Ears", "path": null },
+        { "id": "cheeks", "label": "Cheeks", "path": null }
+      ]
+    },
+    {
+      "levelNumber": 4,
+      "title": "Panda",
+      "animal": "panda",
+      "symbolId": "animal-04-panda",
+      "palette": ["#FFFFFF", "#D9DEE3", "#2B4F6E", "#FFB6C1"],
+      "regions": [
+        { "id": "face", "label": "Face", "path": null },
+        { "id": "ears", "label": "Ears", "path": null },
+        { "id": "eyePatches", "label": "Eye patches", "path": null },
+        { "id": "noseMouth", "label": "Nose/Mouth", "path": null }
+      ]
+    },
+    {
+      "levelNumber": 5,
+      "title": "Rabbit",
+      "animal": "rabbit",
+      "symbolId": "animal-05-rabbit",
+      "palette": ["#FFFFFF", "#E3F4F8", "#FFB6C1", "#2B4F6E"],
+      "regions": [
+        { "id": "body", "label": "Body", "path": null },
+        { "id": "innerEars", "label": "Inner ears", "path": null },
+        { "id": "cheeks", "label": "Cheeks", "path": null }
+      ]
+    },
+    {
+      "levelNumber": 6,
+      "title": "Puppy",
+      "animal": "puppy",
+      "symbolId": "animal-06-puppy",
+      "palette": ["#CBBBA0", "#FFF5D6", "#2B4F6E", "#FFB6C1"],
+      "regions": [
+        { "id": "fur", "label": "Fur", "path": null },
+        { "id": "belly", "label": "Belly", "path": null },
+        { "id": "nose", "label": "Nose", "path": null },
+        { "id": "cheeks", "label": "Cheeks", "path": null }
+      ]
+    },
+    {
+      "levelNumber": 7,
+      "title": "Cat",
+      "animal": "cat",
+      "symbolId": "animal-07-cat",
+      "palette": ["#C7D2FE", "#E3F4F8", "#FFB6C1", "#2B4F6E"],
+      "regions": [
+        { "id": "fur", "label": "Fur", "path": null },
+        { "id": "innerEars", "label": "Inner ears", "path": null },
+        { "id": "noseMouth", "label": "Nose/Mouth", "path": null },
+        { "id": "cheeks", "label": "Cheeks", "path": null }
+      ]
+    },
+    {
+      "levelNumber": 8,
+      "title": "Fox",
+      "animal": "fox",
+      "symbolId": "animal-08-fox",
+      "palette": ["#FFB26B", "#FFF5D6", "#2B4F6E", "#FF8FB1", "#E3F4F8"],
+      "regions": [
+        { "id": "fur", "label": "Fur", "path": null },
+        { "id": "belly", "label": "Belly", "path": null },
+        { "id": "tailTip", "label": "Tail tip", "path": null },
+        { "id": "cheeks", "label": "Cheeks", "path": null }
+      ]
+    },
+    {
+      "levelNumber": 9,
+      "title": "Bear",
+      "animal": "bear",
+      "symbolId": "animal-09-bear",
+      "palette": ["#B68D6A", "#E9D9C6", "#2B4F6E", "#FFB6C1"],
+      "regions": [
+        { "id": "fur", "label": "Fur", "path": null },
+        { "id": "muzzle", "label": "Muzzle", "path": null },
+        { "id": "nose", "label": "Nose", "path": null },
+        { "id": "cheeks", "label": "Cheeks", "path": null }
+      ]
+    },
+    {
+      "levelNumber": 10,
+      "title": "Koala",
+      "animal": "koala",
+      "symbolId": "animal-10-koala",
+      "palette": ["#D9DEE3", "#BFC7D5", "#2B4F6E", "#FFB6C1"],
+      "regions": [
+        { "id": "fur", "label": "Fur", "path": null },
+        { "id": "ears", "label": "Ears", "path": null },
+        { "id": "nose", "label": "Nose", "path": null },
+        { "id": "cheeks", "label": "Cheeks", "path": null }
+      ]
+    },
+    {
+      "levelNumber": 11,
+      "title": "Tiger",
+      "animal": "tiger",
+      "symbolId": "animal-11-tiger",
+      "palette": ["#FFB26B", "#FFF5D6", "#2B4F6E", "#E84A5F", "#E3F4F8"],
+      "regions": [
+        { "id": "fur", "label": "Fur", "path": null },
+        { "id": "belly", "label": "Belly", "path": null },
+        { "id": "stripes", "label": "Stripes", "path": null },
+        { "id": "cheeks", "label": "Cheeks", "path": null }
+      ]
+    },
+    {
+      "levelNumber": 12,
+      "title": "Lion",
+      "animal": "lion",
+      "symbolId": "animal-12-lion",
+      "palette": ["#FFD36B", "#FFB26B", "#B68D6A", "#2B4F6E", "#FFB6C1"],
+      "regions": [
+        { "id": "mane", "label": "Mane", "path": null },
+        { "id": "face", "label": "Face", "path": null },
+        { "id": "noseMouth", "label": "Nose/Mouth", "path": null },
+        { "id": "cheeks", "label": "Cheeks", "path": null }
+      ]
+    },
+    {
+      "levelNumber": 13,
+      "title": "Cow",
+      "animal": "cow",
+      "symbolId": "animal-13-cow",
+      "palette": ["#FFFFFF", "#D9DEE3", "#2B4F6E", "#FFB6C1", "#E3F4F8"],
+      "regions": [
+        { "id": "body", "label": "Body", "path": null },
+        { "id": "spots", "label": "Spots", "path": null },
+        { "id": "snout", "label": "Snout", "path": null },
+        { "id": "horns", "label": "Horns", "path": null }
+      ]
+    },
+    {
+      "levelNumber": 14,
+      "title": "Monkey",
+      "animal": "monkey",
+      "symbolId": "animal-14-monkey",
+      "palette": ["#B68D6A", "#E9D9C6", "#2B4F6E", "#FFB6C1"],
+      "regions": [
+        { "id": "fur", "label": "Fur", "path": null },
+        { "id": "face", "label": "Face", "path": null },
+        { "id": "ears", "label": "Ears", "path": null },
+        { "id": "cheeks", "label": "Cheeks", "path": null }
+      ]
+    },
+    {
+      "levelNumber": 15,
+      "title": "Chicken (Hat)",
+      "animal": "chicken_hat",
+      "symbolId": "animal-15-chicken-hat",
+      "palette": ["#FFFFFF", "#FFD36B", "#FF8FB1", "#2B4F6E"],
+      "regions": [
+        { "id": "body", "label": "Body", "path": null },
+        { "id": "hat", "label": "Hat", "path": null },
+        { "id": "beak", "label": "Beak", "path": null },
+        { "id": "cheeks", "label": "Cheeks", "path": null }
+      ]
+    },
+    {
+      "levelNumber": 16,
+      "title": "Unicorn",
+      "animal": "unicorn",
+      "symbolId": "animal-16-unicorn",
+      "palette": ["#E3F4F8", "#FFB6C1", "#C7D2FE", "#FFD36B", "#2B4F6E"],
+      "regions": [
+        { "id": "body", "label": "Body", "path": null },
+        { "id": "horn", "label": "Horn", "path": null },
+        { "id": "mane", "label": "Mane", "path": null },
+        { "id": "tail", "label": "Tail", "path": null }
+      ]
+    },
+    {
+      "levelNumber": 17,
+      "title": "Baby Dragon",
+      "animal": "dragon",
+      "symbolId": "animal-17-dragon",
+      "palette": ["#7BE495", "#A8D8EA", "#FFB6C1", "#FFD36B", "#2B4F6E"],
+      "regions": [
+        { "id": "body", "label": "Body", "path": null },
+        { "id": "belly", "label": "Belly", "path": null },
+        { "id": "wings", "label": "Wings", "path": null },
+        { "id": "horns", "label": "Horns", "path": null }
+      ]
+    },
+    {
+      "levelNumber": 18,
+      "title": "Whale",
+      "animal": "whale",
+      "symbolId": "animal-18-whale",
+      "palette": ["#A8D8EA", "#E3F4F8", "#2B4F6E", "#FFB6C1"],
+      "regions": [
+        { "id": "body", "label": "Body", "path": null },
+        { "id": "belly", "label": "Belly", "path": null },
+        { "id": "water", "label": "Water splash", "path": null }
+      ]
+    },
+    {
+      "levelNumber": 19,
+      "title": "Octopus",
+      "animal": "octopus",
+      "symbolId": "animal-19-octopus",
+      "palette": ["#C7D2FE", "#FFB6C1", "#A8D8EA", "#FFD36B", "#2B4F6E"],
+      "regions": [
+        { "id": "head", "label": "Head", "path": null },
+        { "id": "tentacles", "label": "Tentacles", "path": null },
+        { "id": "suckers", "label": "Suckers", "path": null }
+      ]
+    },
+    {
+      "levelNumber": 20,
+      "title": "Bear",
+      "animal": "bear",
+      "symbolId": "animal-09-bear",
+      "palette": ["#8E66D9", "#FFD36B", "#FF8FB1"],
+      "regions": [
+        { "id": "fur", "label": "Fur", "path": null },
+        { "id": "muzzle", "label": "Muzzle", "path": null },
+        { "id": "nose", "label": "Nose", "path": null },
+        { "id": "cheeks", "label": "Cheeks", "path": null }
+      ]
+    }
+  ]
+}
+

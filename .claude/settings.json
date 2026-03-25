@@ -1,0 +1,6 @@
+{
+  "codeStyle": "clean",
+  "preferExistingCode": true,
+  "maxFileSize": 500,
+  "testRequired": true
+}

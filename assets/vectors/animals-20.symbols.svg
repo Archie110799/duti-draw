@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Duti Draw: 20 animal outline symbols (chibi, thick stroke).
+  - All symbols share viewBox 0 0 512 512
+  - Stroke-only (no fills) to support tracing + region coloring later
+  - Use <use href="#animal-01-chick" /> etc.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .o{fill:none;stroke:#111;stroke-width:20;stroke-linecap:round;stroke-linejoin:round}
+      .s{fill:none;stroke:#111;stroke-width:14;stroke-linecap:round;stroke-linejoin:round}
+      .d{fill:none;stroke:#111;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1 38}
+    </style>
+
+    <!-- 01 Chick -->
+    <symbol id="animal-01-chick" viewBox="0 0 512 512">
+      <path class="o" d="M256 118c88 0 160 72 160 160s-72 160-160 160S96 366 96 278 168 118 256 118Z"/>
+      <path class="s" d="M210 270c10 10 22 16 46 16s36-6 46-16"/>
+      <path class="s" d="M210 230h0"/>
+      <path class="s" d="M302 230h0"/>
+      <path class="s" d="M238 305l18 14 18-14"/>
+      <path class="s" d="M256 86l-10 20m20-20l10 20"/>
+    </symbol>
+
+    <!-- 02 Frog -->
+    <symbol id="animal-02-frog" viewBox="0 0 512 512">
+      <path class="o" d="M150 250c0-72 48-122 106-122h0c58 0 106 50 106 122 0 98-70 174-106 174s-106-76-106-174Z"/>
+      <path class="s" d="M184 190c14-28 44-44 72-44s58 16 72 44"/>
+      <path class="o" d="M170 160c0-30 24-54 54-54s54 24 54 54"/>
+      <path class="o" d="M234 160c0-30 24-54 54-54s54 24 54 54"/>
+      <path class="s" d="M214 160h0M298 160h0"/>
+      <path class="s" d="M212 268c12 18 26 26 44 26s32-8 44-26"/>
+    </symbol>
+
+    <!-- 03 Pig -->
+    <symbol id="animal-03-pig" viewBox="0 0 512 512">
+      <path class="o" d="M256 134c92 0 166 64 166 152s-74 170-166 170S90 374 90 286s74-152 166-152Z"/>
+      <path class="o" d="M150 160l-38-34v62"/>
+      <path class="o" d="M362 160l38-34v62"/>
+      <path class="o" d="M256 274c42 0 78 22 78 54s-36 54-78 54-78-22-78-54 36-54 78-54Z"/>
+      <path class="s" d="M232 322h0M280 322h0"/>
+      <path class="s" d="M206 242h0M306 242h0"/>
+      <path class="s" d="M216 252c16 12 28 16 40 16s24-4 40-16"/>
+    </symbol>
+
+    <!-- 04 Panda -->
+    <symbol id="animal-04-panda" viewBox="0 0 512 512">
+      <path class="o" d="M256 128c82 0 150 66 150 148 0 106-76 192-150 192s-150-86-150-192c0-82 68-148 150-148Z"/>
+      <path class="o" d="M166 152c-10-30 10-58 40-64 26-6 54 10 60 38"/>
+      <path class="o" d="M346 152c10-30-10-58-40-64-26-6-54 10-60 38"/>
+      <path class="o" d="M202 236c-24 0-44 20-44 44s20 44 44 44 44-20 44-44-20-44-44-44Z"/>
+      <path class="o" d="M310 236c-24 0-44 20-44 44s20 44 44 44 44-20 44-44-20-44-44-44Z"/>
+      <path class="s" d="M246 316l10 10 10-10"/>
+      <path class="s" d="M214 354c18 18 36 26 42 26s24-8 42-26"/>
+    </symbol>
+
+    <!-- 05 Rabbit -->
+    <symbol id="animal-05-rabbit" viewBox="0 0 512 512">
+      <path class="o" d="M256 162c78 0 140 60 140 140 0 106-70 184-140 184s-140-78-140-184c0-80 62-140 140-140Z"/>
+      <path class="o" d="M198 74c-26 26-34 84-10 120"/>
+      <path class="o" d="M314 74c26 26 34 84 10 120"/>
+      <path class="s" d="M206 260h0M306 260h0"/>
+      <path class="s" d="M246 296l10 10 10-10"/>
+      <path class="s" d="M228 328c12 16 18 22 28 22s16-6 28-22"/>
+      <path class="s" d="M256 350v28"/>
+    </symbol>
+
+    <!-- 06 Puppy -->
+    <symbol id="animal-06-puppy" viewBox="0 0 512 512">
+      <path class="o" d="M256 138c86 0 156 66 156 154 0 112-78 190-156 190s-156-78-156-190c0-88 70-154 156-154Z"/>
+      <path class="o" d="M132 206c-26-20-40-56-22-84 20-30 60-26 82 8"/>
+      <path class="o" d="M380 206c26-20 40-56 22-84-20-30-60-26-82 8"/>
+      <path class="s" d="M214 260h0M298 260h0"/>
+      <path class="o" d="M256 286c26 0 48 18 48 40s-22 40-48 40-48-18-48-40 22-40 48-40Z"/>
+      <path class="s" d="M224 360c14 18 28 26 32 26s18-8 32-26"/>
+    </symbol>
+
+    <!-- 07 Cat -->
+    <symbol id="animal-07-cat" viewBox="0 0 512 512">
+      <path class="o" d="M256 150c82 0 148 62 148 146 0 108-74 186-148 186S108 404 108 296c0-84 66-146 148-146Z"/>
+      <path class="o" d="M170 188l-46-46v92"/>
+      <path class="o" d="M342 188l46-46v92"/>
+      <path class="s" d="M214 260h0M298 260h0"/>
+      <path class="s" d="M246 292l10 10 10-10"/>
+      <path class="s" d="M172 300l56 18m112-18-56 18"/>
+      <path class="s" d="M222 340c14 16 22 22 34 22s20-6 34-22"/>
+    </symbol>
+
+    <!-- 08 Fox -->
+    <symbol id="animal-08-fox" viewBox="0 0 512 512">
+      <path class="o" d="M256 126c60 0 112 32 142 84 6 10 8 22 6 34-12 94-82 214-148 214S120 338 108 244c-2-12 0-24 6-34 30-52 82-84 142-84Z"/>
+      <path class="o" d="M156 162l-58-54v104"/>
+      <path class="o" d="M356 162l58-54v104"/>
+      <path class="s" d="M214 250h0M298 250h0"/>
+      <path class="o" d="M256 274c26 0 48 14 48 32s-22 32-48 32-48-14-48-32 22-32 48-32Z"/>
+      <path class="s" d="M218 346c16 16 28 22 38 22s22-6 38-22"/>
+    </symbol>
+
+    <!-- 09 Bear -->
+    <symbol id="animal-09-bear" viewBox="0 0 512 512">
+      <path class="o" d="M256 132c86 0 156 66 156 150 0 110-78 194-156 194S100 392 100 282c0-84 70-150 156-150Z"/>
+      <path class="o" d="M166 166c-26 0-46-20-46-46s20-46 46-46 46 20 46 46-20 46-46 46Z"/>
+      <path class="o" d="M346 166c26 0 46-20 46-46s-20-46-46-46-46 20-46 46 20 46 46 46Z"/>
+      <path class="s" d="M214 258h0M298 258h0"/>
+      <path class="o" d="M256 282c26 0 48 16 48 36s-22 36-48 36-48-16-48-36 22-36 48-36Z"/>
+      <path class="s" d="M224 356c12 14 24 20 32 20s20-6 32-20"/>
+    </symbol>
+
+    <!-- 10 Koala -->
+    <symbol id="animal-10-koala" viewBox="0 0 512 512">
+      <path class="o" d="M256 146c80 0 146 60 146 142 0 112-74 198-146 198S110 400 110 288c0-82 66-142 146-142Z"/>
+      <path class="o" d="M148 236c-34 0-62-28-62-62s28-62 62-62 62 28 62 62-28 62-62 62Z"/>
+      <path class="o" d="M364 236c34 0 62-28 62-62s-28-62-62-62-62 28-62 62 28 62 62 62Z"/>
+      <path class="s" d="M214 268h0M298 268h0"/>
+      <path class="o" d="M256 286c26 0 46 18 46 40s-20 40-46 40-46-18-46-40 20-40 46-40Z"/>
+      <path class="s" d="M222 374c16 14 26 18 34 18s18-4 34-18"/>
+    </symbol>
+
+    <!-- 11 Tiger -->
+    <symbol id="animal-11-tiger" viewBox="0 0 512 512">
+      <path class="o" d="M256 128c86 0 156 64 156 150 0 112-78 198-156 198S100 390 100 278c0-86 70-150 156-150Z"/>
+      <path class="o" d="M170 178l-52-52v94"/>
+      <path class="o" d="M342 178l52-52v94"/>
+      <path class="s" d="M214 254h0M298 254h0"/>
+      <path class="s" d="M256 282l-10 10 10 10 10-10-10-10Z"/>
+      <path class="s" d="M180 238l34 18m118-18-34 18"/>
+      <path class="s" d="M198 314l22 16m92-16-22 16"/>
+      <path class="s" d="M222 354c14 14 22 18 34 18s20-4 34-18"/>
+    </symbol>
+
+    <!-- 12 Lion -->
+    <symbol id="animal-12-lion" viewBox="0 0 512 512">
+      <path class="o" d="M256 118c92 0 168 76 168 170 0 116-86 200-168 200S88 404 88 288c0-94 76-170 168-170Z"/>
+      <path class="o" d="M256 166c60 0 110 48 110 112 0 86-56 150-110 150s-110-64-110-150c0-64 50-112 110-112Z"/>
+      <path class="s" d="M214 264h0M298 264h0"/>
+      <path class="o" d="M256 286c22 0 40 14 40 32s-18 32-40 32-40-14-40-32 18-32 40-32Z"/>
+      <path class="s" d="M226 350c14 14 22 18 30 18s16-4 30-18"/>
+      <path class="s" d="M170 226l-20-18m192 18 20-18"/>
+    </symbol>
+
+    <!-- 13 Cow -->
+    <symbol id="animal-13-cow" viewBox="0 0 512 512">
+      <path class="o" d="M256 142c84 0 154 62 154 146 0 112-78 198-154 198S102 400 102 288c0-84 70-146 154-146Z"/>
+      <path class="o" d="M156 178c-20-30-14-70 18-90 28-18 64-6 82 26"/>
+      <path class="o" d="M356 178c20-30 14-70-18-90-28-18-64-6-82 26"/>
+      <path class="s" d="M214 260h0M298 260h0"/>
+      <path class="o" d="M256 286c52 0 96 26 96 62s-44 62-96 62-96-26-96-62 44-62 96-62Z"/>
+      <path class="s" d="M226 344h0M286 344h0"/>
+      <path class="s" d="M202 236c18 14 34 20 54 20s36-6 54-20"/>
+    </symbol>
+
+    <!-- 14 Monkey -->
+    <symbol id="animal-14-monkey" viewBox="0 0 512 512">
+      <path class="o" d="M256 136c86 0 156 66 156 154 0 112-78 192-156 192S100 402 100 290c0-88 70-154 156-154Z"/>
+      <path class="o" d="M164 318c-34 0-62-28-62-62s28-62 62-62 62 28 62 62-28 62-62 62Z"/>
+      <path class="o" d="M348 318c34 0 62-28 62-62s-28-62-62-62-62 28-62 62 28 62 62 62Z"/>
+      <path class="o" d="M256 248c60 0 110 34 110 84s-50 84-110 84-110-34-110-84 50-84 110-84Z"/>
+      <path class="s" d="M214 294h0M298 294h0"/>
+      <path class="s" d="M226 346c16 16 26 22 30 22s14-6 30-22"/>
+    </symbol>
+
+    <!-- 15 Chicken with hat -->
+    <symbol id="animal-15-chicken-hat" viewBox="0 0 512 512">
+      <path class="o" d="M256 150c84 0 152 64 152 148 0 112-78 188-152 188S104 410 104 298c0-84 68-148 152-148Z"/>
+      <path class="o" d="M196 104h120l-14 46H210l-14-46Z"/>
+      <path class="s" d="M224 104c10-18 20-26 32-26s22 8 32 26"/>
+      <path class="s" d="M214 266h0M298 266h0"/>
+      <path class="s" d="M238 300l18 14 18-14"/>
+      <path class="s" d="M214 338c16 14 26 18 42 18s26-4 42-18"/>
+    </symbol>
+
+    <!-- 16 Unicorn -->
+    <symbol id="animal-16-unicorn" viewBox="0 0 512 512">
+      <path class="o" d="M256 160c84 0 152 64 152 148 0 112-78 188-152 188S104 420 104 308c0-84 68-148 152-148Z"/>
+      <path class="o" d="M176 188l-48-48v94"/>
+      <path class="o" d="M314 80l38 90-68-26 30-64Z"/>
+      <path class="s" d="M214 276h0M298 276h0"/>
+      <path class="o" d="M256 294c26 0 48 16 48 36s-22 36-48 36-48-16-48-36 22-36 48-36Z"/>
+      <path class="s" d="M316 244c26-10 46-4 64 18"/>
+      <path class="s" d="M222 362c16 14 26 18 34 18s18-4 34-18"/>
+    </symbol>
+
+    <!-- 17 Baby dragon -->
+    <symbol id="animal-17-dragon" viewBox="0 0 512 512">
+      <path class="o" d="M256 140c86 0 156 66 156 154 0 112-78 192-156 192S100 406 100 294c0-88 70-154 156-154Z"/>
+      <path class="o" d="M180 166l-44-44v86"/>
+      <path class="o" d="M332 166l44-44v86"/>
+      <path class="s" d="M214 268h0M298 268h0"/>
+      <path class="o" d="M256 292c24 0 44 16 44 36s-20 36-44 36-44-16-44-36 20-36 44-36Z"/>
+      <path class="s" d="M160 360c-18 30-10 58 24 74"/>
+      <path class="s" d="M352 360c18 30 10 58-24 74"/>
+      <path class="s" d="M226 368c14 12 22 16 30 16s16-4 30-16"/>
+    </symbol>
+
+    <!-- 18 Whale -->
+    <symbol id="animal-18-whale" viewBox="0 0 512 512">
+      <path class="o" d="M112 320c0-104 86-188 192-188 88 0 162 58 184 140-22 22-62 48-98 48-26 0-44-10-60-22-16 32-60 82-130 82-54 0-88-26-88-60Z"/>
+      <path class="o" d="M388 214c34-10 68-6 92 12-8 44-34 78-76 94"/>
+      <path class="s" d="M254 254h0"/>
+      <path class="s" d="M244 302c12 10 22 14 30 14s18-4 30-14"/>
+      <path class="s" d="M190 162c10-28 26-44 46-56"/>
+    </symbol>
+
+    <!-- 19 Octopus -->
+    <symbol id="animal-19-octopus" viewBox="0 0 512 512">
+      <path class="o" d="M256 132c82 0 148 60 148 142 0 78-44 132-96 154-20 10-32 10-52 0-52-22-96-76-96-154 0-82 66-142 148-142Z"/>
+      <path class="s" d="M214 232h0M298 232h0"/>
+      <path class="s" d="M220 268c14 16 22 22 36 22s22-6 36-22"/>
+      <path class="o" d="M172 340c-10 44-38 66-76 62"/>
+      <path class="o" d="M220 360c-6 46-34 74-72 78"/>
+      <path class="o" d="M292 360c6 46 34 74 72 78"/>
+      <path class="o" d="M340 340c10 44 38 66 76 62"/>
+    </symbol>
+
+    <!-- 20 Dinosaur -->
+    <symbol id="animal-20-dinosaur" viewBox="0 0 512 512">
+      <path class="o" d="M168 320c0-94 62-168 150-168 54 0 100 28 126 72-18 28-54 54-98 54-14 0-28-2-40-6-6 72-52 142-138 142-56 0-100-36-100-94Z"/>
+      <path class="o" d="M164 226c-30-8-54-28-68-56 26-20 58-20 86 0"/>
+      <path class="s" d="M278 234h0"/>
+      <path class="o" d="M300 252c24 0 44 16 44 36s-20 36-44 36-44-16-44-36 20-36 44-36Z"/>
+      <path class="s" d="M248 330c14 12 26 18 38 18s24-6 38-18"/>
+      <path class="s" d="M250 162l-22-24m44 24 22-24m-10 48 22-24"/>
+      <path class="s" d="M230 420c10 20 28 32 54 32"/>
+    </symbol>
+
+  </defs>
+</svg>

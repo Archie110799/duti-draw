@@ -1,0 +1,68 @@
+/**
+ * Semantic tokens — usage-based color mapping for light/dark modes.
+ * Components use ONLY these tokens via `useSemanticColor(key)`.
+ */
+import { Primitives } from './palette.primitives';
+
+export type SemanticColorKey = keyof typeof SemanticColors.light;
+
+export const SemanticColors = {
+  light: {
+    primary: Primitives.iceDeep,
+    primaryPressed: Primitives.iceDeepDark,
+    background: Primitives.snow,
+    surface: Primitives.snowWhite,
+    surfaceElevated: Primitives.snowWhite,
+    textPrimary: Primitives.gray900,
+    textSecondary: Primitives.gray600,
+    textOnPrimary: Primitives.snowWhite,
+    border: Primitives.gray300,
+    borderLight: Primitives.gray200,
+    accent: Primitives.sprinkleAccent,
+    accentPink: Primitives.candyPink,
+    accentYellow: Primitives.sprinkleYellow,
+    accentGreen: Primitives.sprinkleGreen,
+    frost: Primitives.frost,
+    frostLight: Primitives.frostLight,
+    danger: Primitives.dangerRed,
+    success: Primitives.successGreen,
+    warning: Primitives.warningAmber,
+    info: Primitives.infoBlue,
+    icon: Primitives.gray600,
+    iconActive: Primitives.iceDeep,
+    overlay: Primitives.blackAlpha50,
+    disabled: Primitives.gray400,
+    disabledBg: Primitives.gray200,
+    tabBar: Primitives.snowWhite,
+    tabBarBorder: Primitives.gray200,
+  },
+  dark: {
+    primary: Primitives.frost,
+    primaryPressed: Primitives.frostLight,
+    background: Primitives.darkBg,
+    surface: Primitives.darkSurface,
+    surfaceElevated: Primitives.darkSurfaceElevated,
+    textPrimary: Primitives.gray100,
+    textSecondary: Primitives.gray400,
+    textOnPrimary: Primitives.gray900,
+    border: Primitives.darkBorder,
+    borderLight: Primitives.darkBorder,
+    accent: Primitives.sprinkleAccent,
+    accentPink: Primitives.candyPinkDeep,
+    accentYellow: Primitives.sprinkleYellow,
+    accentGreen: Primitives.sprinkleGreen,
+    frost: Primitives.frost,
+    frostLight: Primitives.frostLight,
+    danger: Primitives.dangerRed,
+    success: Primitives.successGreen,
+    warning: Primitives.warningAmber,
+    info: Primitives.infoBlue,
+    icon: Primitives.gray400,
+    iconActive: Primitives.frost,
+    overlay: Primitives.blackAlpha50,
+    disabled: Primitives.gray600,
+    disabledBg: Primitives.darkBorder,
+    tabBar: Primitives.darkSurface,
+    tabBarBorder: Primitives.darkBorder,
+  },
+} as const;
